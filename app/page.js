@@ -15,9 +15,9 @@ export default function Home() {
         id="intro"
         className="relative min-h-screen flex items-center justify-center text-center px-4 sm:px-6"
       >
-        <div className="absolute inset-0">
+       <div className="absolute inset-0 h-40 sm:h-64 md:h-full">
           <Image
-            src="/img20.jpeg"
+            src="/img1.jpeg"
             alt="background"
             fill
             priority
@@ -36,7 +36,7 @@ export default function Home() {
 
           {/* text */}
           <p className="text-sm sm:text-xl md:text-2xl text-white mb-4 py-3">
-            Premium civil and interior solutions for modern businesses.
+            Pre mium civil and interior solutions for modern businesses.
           </p>
         </div>
       </section>
