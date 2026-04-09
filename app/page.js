@@ -36,7 +36,7 @@ export default function Home() {
 
           {/* text */}
           <p className="text-sm sm:text-xl md:text-2xl text-white mb-4 py-3">
-            Pre mium civil and interior solutions for modern businesses.
+            Premium civil and interior solutions for modern businesses.
           </p>
         </div>
       </section>
