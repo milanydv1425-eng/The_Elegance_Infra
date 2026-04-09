@@ -30,12 +30,12 @@ export default function Home() {
           <div className="absolute inset-0 -mx-4 sm:-mx-10 lg:-mx-20 bg-black/50 -z-10 rounded-2xl"></div>
 
           {/* heading */}
-          <div className="text-2xl sm:text-4xl md:text-5xl text-white font-bold mb-4 py-2">
+          <div className="text-2xl sm:text-5xl md:text-6xl text-white font-bold mb-4 py-2">
             Crafting Spaces with <span className="text-white">Elegance</span>
           </div>
 
           {/* text */}
-          <p className="text-sm sm:text-base md:text-xl text-white mb-4 py-5">
+          <p className="text-sm sm:text-xl md:text-2xl text-white mb-4 py-5">
             Premium civil and interior solutions for modern businesses.
           </p>
         </div>
