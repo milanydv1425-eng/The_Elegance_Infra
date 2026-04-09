@@ -25,11 +25,16 @@ export default function Home() {
           />
         </div>
 
-        <div className="relative z-10 max-w-3xl font-serif ">
-           <div className="absolute inset-0 -mx-20 bg-black/50 -z-10 rounded-2xl "></div>
-          <div className="text-5xl text-white font-bold mb-4 py-2  ">
-            Crafting Spaces with <span className="text-white">Elegance</span>    
+        <div className="relative z-10 max-w-3xl font-serif px-4 mx-auto">
+          {/* backdrop */}
+          <div className="absolute inset-0 -mx-4 sm:-mx-10 lg:-mx-20 bg-black/50 -z-10 rounded-2xl"></div>
+
+          {/* heading */}
+          <div className="text-2xl sm:text-4xl md:text-5xl text-white font-bold mb-4 py-2">
+            Crafting Spaces with <span className="text-white">Elegance</span>
           </div>
+
+          {/* text */}
           <p className="text-sm sm:text-base md:text-xl text-white mb-4 py-5">
             Premium civil and interior solutions for modern businesses.
           </p>
@@ -45,14 +50,13 @@ export default function Home() {
             </div>
             <p className="text-black text-sm sm:text-base leading-relaxed">
               The Elegance Infra is a civil interior and turnkey execution
-              company specializing in retail, QSR, and commercial spaces.
-              We focus on delivering high-quality, cost-efficient, and scalable
+              company specializing in retail, QSR, and commercial spaces. We
+              focus on delivering high-quality, cost-efficient, and scalable
               interior solutions that align with brand identity while ensuring
-              seamless execution.
-              With experience across multiple outlets, our strength lies in fast
-              project delivery, consistent finishes, and end-to-end management —
-              from civil work to final handover.
-              We partner with growing brands to help them launch and scale their
+              seamless execution. With experience across multiple outlets, our
+              strength lies in fast project delivery, consistent finishes, and
+              end-to-end management — from civil work to final handover. We
+              partner with growing brands to help them launch and scale their
               spaces efficiently, while maintaining uniformity across locations.
             </p>
           </div>
@@ -70,7 +74,10 @@ export default function Home() {
       </section>
 
       {/* WHY US */}
-      <section id="why" className="relative font-serif py-12 md:py-20 px-4 sm:px-6">
+      <section
+        id="why"
+        className="relative font-serif py-12 md:py-20 px-4 sm:px-6"
+      >
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
@@ -168,11 +175,14 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="relative font-serif py-12 md:py-20 px-4 sm:px-6">
+      <section
+        id="contact"
+        className="relative font-serif py-12 md:py-20 px-4 sm:px-6"
+      >
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/img17.jpeg"  
+            src="/img17.jpeg"
             alt="background"
             fill
             sizes="100vw"
@@ -199,7 +209,7 @@ export default function Home() {
             target="_blank"
             className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-700 transition text-sm sm:text-base"
           >
-             Chat on WhatsApp
+            Chat on WhatsApp
           </a>
         </div>
       </section>
