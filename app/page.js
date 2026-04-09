@@ -13,9 +13,9 @@ export default function Home() {
       {/* HERO */}
       <section
         id="intro"
-        className="relative min-h-screen flex items-center justify-center text-center px-4 sm:px-6"
+        className="relative h-[60vh] sm:min-h-screen flex items-center justify-center text-center px-4 sm:px-6"
       >
-       <div className="absolute inset-0 h-40 sm:h-64 md:h-full">
+        <div className="absolute inset-0 ">
           <Image
             src="/img1.jpeg"
             alt="background"
