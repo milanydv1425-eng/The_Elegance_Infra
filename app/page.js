@@ -98,13 +98,14 @@ export default function Home() {
             Why Choose <span className="text-white">US</span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5 sm:gap-6">
             <div className="p-5 sm:p-6 bg-white shadow rounded-lg transition duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(21,128,61,0.3)]">
               <h3 className="text-lg sm:text-xl font-semibold mb-2">
-                Punctual Delivery
+                Turnkey Interior Execution
               </h3>
               <p className="text-gray-600 text-sm sm:text-base">
-                We complete projects on time without compromising quality.
+                End-to-end project delivery from civil work to final handover,
+                ensuring seamless and hassle-free execution.
               </p>
             </div>
 
@@ -119,10 +120,20 @@ export default function Home() {
 
             <div className="p-5 sm:p-6 bg-white shadow rounded-lg transition duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(21,128,61,0.3)]">
               <h3 className="text-lg sm:text-xl font-semibold mb-2">
-                Experienced Team
+                Custom Furniture & Fixtures
               </h3>
               <p className="text-gray-600 text-sm sm:text-base">
-                Years of expertise in handling retail and commercial projects.
+                Design and installation of brand-specific furniture, counters,
+                and fixtures tailored to your store requirements.
+              </p>
+            </div>
+
+            <div className="p-5 sm:p-6 bg-white shadow rounded-lg transition duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(21,128,61,0.3)]">
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                Maintenance & Support
+              </h3>
+              <p className="text-gray-600 text-sm sm:text-base">
+                Ongoing maintenance services to ensure your outlets remain functional, consistent, and well-maintained post-launch.
               </p>
             </div>
           </div>
