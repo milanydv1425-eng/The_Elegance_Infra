@@ -17,7 +17,7 @@ export default function Home() {
       >
         <div className="absolute inset-0">
           <Image
-            src="/img1.jpeg"
+            src="/img20.jpeg"
             alt="background"
             fill
             priority
