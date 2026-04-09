@@ -52,11 +52,11 @@ export default function Navbar() {
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex gap-8 text-base font-medium">
-          <li onClick={() => scrollToSection("intro")} className="cursor-pointer hover:text-green-700">Home</li>
-          <li onClick={() => scrollToSection("about")} className="cursor-pointer hover:text-green-700">About</li>
-          <li onClick={() => scrollToSection("why")} className="cursor-pointer hover:text-green-700">Why Us</li>
-          <li onClick={() => scrollToSection("projects")} className="cursor-pointer hover:text-green-700">Projects</li>
-          <li onClick={() => scrollToSection("contact")} className="cursor-pointer hover:text-green-700">Contact</li>
+          <li onClick={() => scrollToSection("intro")} className="cursor-pointer hover:text-green-700 font-serif ">Home</li>
+          <li onClick={() => scrollToSection("about")} className="cursor-pointer hover:text-green-700 font-serif ">About</li>
+          <li onClick={() => scrollToSection("why")} className="cursor-pointer hover:text-green-700 font-serif ">Why Us</li>
+          <li onClick={() => scrollToSection("projects")} className="cursor-pointer hover:text-green-700 font-serif ">Projects</li>
+          <li onClick={() => scrollToSection("contact")} className="cursor-pointer hover:text-green-700 font-serif ">Contact</li>
         </ul>
 
         {/* HAMBURGER */}
@@ -81,12 +81,7 @@ export default function Navbar() {
         </div>
       )}
 
-      {/* MOTTO */}
-      <div className="border-t border-black text-center py-2 hidden md:block">
-        <p className="text-green-700 font-serif tracking-wide text-sm md:text-base">
-          CRAFTING SPACES WITH ELEGANCE
-        </p>
-      </div>
+      
     </nav>
   );
 }
