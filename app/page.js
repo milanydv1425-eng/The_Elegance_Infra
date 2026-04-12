@@ -236,7 +236,7 @@ export default function Home() {
             Send Email
           </a>
           {/* Email text (optional) */}
-          <p className="mt-4 text-sm text-gray-300">youremail@example.com</p>
+          <p className="mt-4 text-sm text-gray-300">aadarsh@theeleganceinfra.in</p>
         </div>
       </section>
 
