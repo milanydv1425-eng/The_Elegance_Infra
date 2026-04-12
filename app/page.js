@@ -133,7 +133,8 @@ export default function Home() {
                 Maintenance & Support
               </h3>
               <p className="text-gray-600 text-sm sm:text-base">
-                Ongoing maintenance services to ensure your outlets remain functional, consistent, and well-maintained post-launch.
+                Ongoing maintenance services to ensure your outlets remain
+                functional, consistent, and well-maintained post-launch.
               </p>
             </div>
           </div>
@@ -211,17 +212,31 @@ export default function Home() {
           </h2>
 
           <p className="text-sm sm:text-base text-gray-200 mb-6">
-            Let’s discuss your next project. Reach out to us directly on
-            WhatsApp.
+            Let’s discuss your next project. Reach out to us directly.
           </p>
 
+          {/* WhatsApp Button */}
           <a
             href="https://wa.me/917042880507?text=Hello%20I%20am%20looking%20for%20civil%20and%20interior%20execution%20services.%20Please%20connect%20with%20me."
             target="_blank"
-            className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-700 transition text-sm sm:text-base"
+            className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800 transition text-sm sm:text-base"
           >
             Chat on WhatsApp
           </a>
+
+          {/* OR Divider */}
+          <div className="my-6 text-gray-300">or</div>
+
+          {/* Email */}
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=aadarsh@theeleganceinfra.in"
+            target="_blank"
+            className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800 transition text-sm sm:text-base"
+          >
+             Send Email
+          </a>
+
+          
         </div>
       </section>
 
