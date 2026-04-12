@@ -233,10 +233,10 @@ export default function Home() {
             target="_blank"
             className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800 transition text-sm sm:text-base"
           >
-             Send Email
+            Send Email
           </a>
-
-          
+          {/* Email text (optional) */}
+          <p className="mt-4 text-sm text-gray-300">youremail@example.com</p>
         </div>
       </section>
 

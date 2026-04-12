@@ -13,7 +13,7 @@ export default function Navbar() {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
-      setOpen(false); // close menu after click
+      setOpen(false); 
     }
   };
 
@@ -80,8 +80,6 @@ export default function Navbar() {
           </ul>
         </div>
       )}
-
-      
     </nav>
   );
 }
